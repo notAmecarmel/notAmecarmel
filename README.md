@@ -1,92 +1,64 @@
 
 <div align="center">
 
-# AMEYA INGALE
+# Ameya Ingale
 
-### AI & Data Science Engineer · Builder · Problem Solver
+**AI & Data Science Engineer · Builder · Problem Solver**
 
-<a href="https://github.com/notAmecarmel">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+Building intelligent products, automation systems, and software that solve real-world problems.
 
-<br />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:334155&height=180&section=header&text=BUILD.%20SHIP.%20REPEAT.&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=65" width="100%" />
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/notAmecarmel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-181717?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
 </div>
 
----
+<br>
 
-## `whoami`
+## About
 
-```python
-class AmeyaIngale:
-    role = "AI & Data Science Engineer"
-    education = "B.Tech CSE @ MIT-WPU"
-    interests = [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Automation",
-        "Backend Systems",
-        "Entrepreneurship"
-    ]
+I'm a Computer Science student specializing in AI & Data Science at MIT World Peace University.
 
-    currently_building = "AI-powered products"
+I enjoy turning ideas into working software — from AI-powered products and automation workflows to backend systems.
 
-    def say_hi(self):
-        print("Turning ideas into working software.")
-```
+- 🔭 Building AI-powered products
+- 🧠 Exploring AI, ML, and automation
+- ⚙️ Interested in backend systems and scalable software
+- 🚀 Interested in entrepreneurship and shipping real products
 
-I build AI-powered products, automation systems, and software
-that solve real-world problems.
+<br>
 
-Currently exploring the intersection of **AI × Automation × Business**.
-
----
-
-## `tech stack`
+## Tech stack
 
 <div align="center">
 
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js,sql" />
-
-### AI / ML / Backend
-
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn,fastapi,flask,docker" />
-
-### Frontend / Tools
-
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,git,github,linux" />
+<img src="https://skillicons.dev/icons?i=python,cpp,java,js,sql,react,fastapi,flask,docker,git,linux&perline=6" />
 
 </div>
 
----
+<br>
 
-## `featured projects`
+## Selected projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### NutriSmart
 
-AI-powered nutrition and grocery planning.
+AI-powered nutrition and grocery planning platform.
 
 - AI product development
-- Automation workflows
 - Personalized nutrition
+- Workflow automation
+
+[View project →](https://github.com/notAmecarmel/nutrismart)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### DubCheck
 
-Automated QA for AI dubbing.
+Automated QA tool for AI dubbing.
 
 - Audio extraction
 - Whisper transcription
@@ -96,65 +68,50 @@ Automated QA for AI dubbing.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### Order Matching Engine
 
-High-performance order matching system.
+High-performance order matching system built in C++.
 
-- C++
 - Data structures
+- Algorithms
 - Systems programming
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### Cloud Native Deployment
 
-Automated deployment platform.
+Automated deployment platform focused on cloud infrastructure.
 
 - Docker
 - CI/CD
-- Cloud infrastructure
+- Cloud deployment
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## `github stats`
+## What I'm exploring
 
-<div align="center">
+```text
+Artificial Intelligence
+Machine Learning
+LLM Engineering
+Backend Systems
+Workflow Automation
+Entrepreneurship
+```
 
-<img src="https://github-readme-stats.vercel.app/api?username=notAmecarmel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=notAmecarmel&theme=tokyonight&hide_border=true" height="165" />
-
-<br />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notAmecarmel&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## `activity`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=notAmecarmel&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-
-</div>
-
----
+<br>
 
 <div align="center">
 
 ### Let's build something interesting.
 
 [GitHub](https://github.com/notAmecarmel) · [LinkedIn](https://www.linkedin.com/)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:334155,100:0f172a&height=100&section=footer" width="100%" />
 
 </div>
