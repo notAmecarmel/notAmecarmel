@@ -218,16 +218,6 @@ Exploring containerization, cloud infrastructure, and CI/CD.
 
 ## 📊 GITHUB ACTIVITY
 
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=notAmecarmel&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&rank_icon=github" width="100%" alt="GitHub statistics" />
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=notAmecarmel&hide_border=true&background=0d1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" width="100%" alt="GitHub contribution streak" />
-
-<br>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=notAmecarmel&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
 
 </div>
