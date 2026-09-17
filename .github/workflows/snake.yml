@@ -28,21 +28,37 @@ jobs:
 
       - name: Publish snake to output branch
         shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
 
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          REPO="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
 
-          git clone --depth 1 \
-            --branch output \
-            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
-            output-repo
+          if git ls-remote --exit-code --heads "$REPO" output >/dev/null 2>&1; then
+            echo "Output branch exists. Cloning..."
+            git clone --depth 1 --branch output "$REPO" output-repo
+          else
+            echo "Output branch does not exist. Creating..."
+            mkdir output-repo
+            cd output-repo
+            git init
+            git checkout --orphan output
+            git remote add origin "$REPO"
+            cd ..
+          fi
 
-          rm -rf output-repo/*
+          # Remove old published files, preserving .git
+          find output-repo -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+
+          # Copy the newly generated SVG files
           cp -R dist/. output-repo/
 
           cd output-repo
-          git add .
-          git diff --cached --quiet || git commit -m "Update contribution snake"
-          git push origin output
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "Update contribution snake" || echo "No changes to commit"
+          git push origin HEAD:output
